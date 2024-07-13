@@ -1,0 +1,68 @@
+.flex-section {
+    width: 100%;
+    padding: 80px 0px;
+
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.flex-box {
+    height: 65vh;
+    border: 5px solid rgb(210 243 183);
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.box {
+    width: 160px;
+    height: 160spx;
+    background: rgb(210, 243, 183);
+    margin: 10px;
+    font-size: 60px;
+    color: rgb(99, 18, 18);
+    text-align: center;
+    line-height: 160px;
+}
+
+.box1 {
+    padding: 0px 046px;
+    font-family: "Klee One", cursive;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    border-radius: 20px;
+
+}
+
+.flex-icon {
+    text-align: center;
+}
+
+.flex-icon ul {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-icon ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 12px;
+    font-size: 25px;
+    width: 55px;
+    height: 55px;
+    background: rgb(210, 243, 183);
+    line-height: 55px;
+    border-radius: 40px 0px;
+    transition: 0.7s;
+}.flex-icon ul li:hover {
+    background: rgb(155, 214, 211);
+    border-radius: 0px 40px;
+    transition: 0.7s;
+}
+
+.flex-icon ul li a {
+    color: hwb(175 0% 39%);
+}
